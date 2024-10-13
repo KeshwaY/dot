@@ -2,11 +2,31 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="ctrl alt quote" />
+    <keyboard-shortcut first-keystroke="shift meta quote" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="Console.TableResult.EditValueMaximized">
     <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="Documentation.Forward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
   </action>
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -17,51 +37,150 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="a" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+  </action>
+  <action id="ExtractFunctionToScope">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="FileChooser.GoForward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="GotoCustomRegion" />
+  <action id="GotoNextElementUnderCaretUsage">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+  </action>
+  <action id="GotoPrevElementUnderCaretUsage">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  </action>
   <action id="HippieBackwardCompletion" />
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="IntroduceFunctionalParameter">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="IntroduceTypeAlias">
+    <keyboard-shortcut first-keystroke="shift alt a" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+    <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="ctrl alt period" />
+    <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="OpenInRightSplit">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="meta r" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
-  </action>
-  <action id="Replace">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="StretchSplitToBottom">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="StretchSplitToLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="StretchSplitToRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
   </action>
   <action id="StretchSplitToTop">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift meta tab" />
   </action>
   <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
   <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="shift ctrl alt back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta alt back_slash" />
   </action>
   <action id="hg4idea.QFold" />
+  <action id="refactoring.extract.dependency">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="sql.ExtractFunctionAction">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="tasks.close" />
 </keymap>
